@@ -1,0 +1,2 @@
+# MavenSauseDemo
+automation tests
