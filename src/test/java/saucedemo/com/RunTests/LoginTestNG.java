@@ -40,7 +40,7 @@ public class LoginTestNG extends BaseTestSetup {
 		
 		String expeted = "Epic sadface: Username and password do not match any user in this service";
 		String actual = lp.getFinishMsg();
-		Assert.assertEquals(actual, expeted);
+		Assert.assertEquals(actual, expeted); 
 
        
 		
@@ -101,5 +101,21 @@ public class LoginTestNG extends BaseTestSetup {
 		
 	}
        
+	
+	@Test
+	public void tc_05_login() throws InterruptedException {
+		
+	//	setup();
+
+		LoginPage lp = new LoginPage(driver);
+		lp.login("problem_user", "uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu");
+		
+		String expeted = "Epic sadface: Username and password do not match any user in this service";
+		String actual = lp.getFinishMsg();
+		Assert.assertEquals(actual, expeted);
+
+		Thread.sleep(2000);
+		
+	}
 
 }
