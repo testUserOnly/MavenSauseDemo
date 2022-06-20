@@ -1,0 +1,8 @@
+saucedemo\com\PageObjects\YourCartPage.class
+saucedemo\com\PageObjects\CheckOutComplete.class
+saucedemo\com\PageObjects\LoginPage.class
+saucedemo\com\RunTests\Test.class
+saucedemo\com\PageObjects\ProductsPage.class
+saucedemo\com\RunTests\BaseTestSetup.class
+saucedemo\com\RunTests\LoginTestNG.class
+saucedemo\com\PageObjects\BasePage.class
